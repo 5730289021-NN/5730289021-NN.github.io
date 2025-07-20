@@ -2,3 +2,19 @@ site_name: Norawit Nangsue's Portfolio
 site_url: https://5730289021-NN.github.io
 theme:
   name: material
+  features:
+    - navigation.indexes
+  palette:
+    primary: deep red
+    accent: red
+  font:
+    text: Roboto
+    code: Roboto Mono
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Blog:
+     - blog/index.md
+     - Tags: blog/tags.md
