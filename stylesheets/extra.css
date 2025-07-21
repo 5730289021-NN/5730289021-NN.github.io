@@ -1,0 +1,10 @@
+[data-md-color-scheme="my_color"] {
+  --md-primary-fg-color:        #770000;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;  
+}
+
+.md-main {
+  background-color: #F9F6F0
+;  /* Replace with your desired color */
+}
