@@ -2,19 +2,34 @@ site_name: Norawit Nangsue's Portfolio
 site_url: https://5730289021-NN.github.io
 theme:
   name: material
+  # custom_dir: stylesheets/extra.css
   features:
     - navigation.indexes
   palette:
-    primary: deep red
-    accent: red
+    scheme: my_color
+    # primary: custom
+    # accent: DC143C
   font:
     text: Roboto
     code: Roboto Mono
 plugins:
-  - search
+  # - search
+  - glightbox
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
-  - Home: index.md
-  - Blog:
-     - blog/index.md
+  - About Me: 01_about.md
+  - Present Focus: 02_present_focus.md
+  - Prior Projects: 03_prior_projects.md
+  - Contact: 04_contact.md
+
+  - "#Robofolio":
      - Tags: blog/tags.md
+
+markdown_extensions:
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
