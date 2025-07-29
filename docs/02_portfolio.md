@@ -1,17 +1,19 @@
-# Prior Projects
+# Portfolio
 
 ## 2025
 <!-- ### Wellsite Inspection using Quadrupled Robot Platform @ PTTEP -->
 
 ### Body Tracking Application
 Since FIBO Industry Service acquired Unitree H1 and G1 robots, the team continued to focus on the development and application of humanoid robots. One simple application was to use ORBTEC Femto Bolt along with Azure Body Tracking SDK to transfer operator's joint angles to the robot. I modified existing source code to make it work with the actual G1 humanoid.
+
 ![Body Tracking Onstage](artifacts/05_engineer/07_body_tracking/on_the_stage.jpg){width=400}
 
 
 ### Exploring about Fleet System
 To make the robots work collaboratively, I delved further into fleet systems. First, I developed an application to control several robots at once to test the robustness of the communication channel. Then, I utilized the networkx library to instantiate a directional graph for robots to travel step-wise.
-![Swarm Control](artifacts/05_engineer/06_fleet_system/swarm_control.mp4){width=300}
-![Digraph Navigation](artifacts/05_engineer/06_fleet_system/digraph_navigation.mp4){width=300}
+
+![Swarm Control](artifacts/05_engineer/06_fleet_system/swarm_control.mp4){width=325}
+![Digraph Navigation](artifacts/05_engineer/06_fleet_system/digraph_navigation.mp4){width=325}
 
 ## 2024
 ### Container Inspection Robot @ PTTGC

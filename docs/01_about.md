@@ -7,11 +7,7 @@ TODO:
 
 ![Me at Phanom Rung Historical Park, photo captured by my father.](images/me_at_phanom_rung.JPG){ loading=lazy width="500" }
 
-Hi, I'm Norawit Nangsue — a Thai–US dual citizen based in Bangkok, Thailand. I specialize in software development, with a passion for building autonomous intelligence to mitigate the world labor shortage crisis and improving people's lives.
-
-With backgrounds in robotics, electrical, and computer engineering, I've worked on a tank inspection robot and a surveillance robot. I enjoy solving complex problems through clean design and practical thinking.
-
-Outside of work, you’ll usually find me sketching ideas, solving equations, or reading research papers. I’m always open to new collaborations — especially ones that cross cultures or disciplines.
+Hi, I'm Norawit Nangsue — a Thai–US dual citizen based in Bangkok, Thailand. I specialize in software development, with backgrounds in robotics, electrical, and computer engineering. I'm eager to innovate autonomous intelligence to mitigate the world labor shortage crisis and improving people's lives.
 
 ### Personal Research Journey
 My research interests lie in the field of Optimal Control and its applications. I have devoted significant time to studying this area, beginning with the foundational text Optimal Control Theory: An Introduction by Donald E. Kirk. Although it is an introductory book, it left a strong impression on me—demonstrating that optimal solutions can, in some cases, be derived analytically without the aid of a computer. Two major frameworks—Euler-Lagrange equations and Pontryagin’s Minimum Principle—stand out as pillars of classical optimal control. Their mathematical elegance continues to inspire me and serves as a reminder of the power and beauty of analytical methods.

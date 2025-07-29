@@ -1,4 +1,4 @@
-site_name: Norawit Nangsue's Portfolio
+site_name: Norawit Nangsue's Blog
 site_url: https://5730289021-NN.github.io
 theme:
   name: material
@@ -24,12 +24,13 @@ extra_css:
 
 nav:
   # - About Me: 01_about.md
-  - Present Focus: 02_present_focus.md
-  - Prior Projects: 03_prior_projects.md
+  - Homepage: index.md
+  - Portfolio: 02_portfolio.md
+  - Present Focus: 03_present_focus.md
   - Contact: 04_contact.md
 
-  - "#Robofolio":
-     - Tags: blog/tags.md
+  # - "#Robofolio":
+  #    - Tags: blog/tags.md
 
 markdown_extensions:
   - pymdownx.snippets

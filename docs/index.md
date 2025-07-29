@@ -1,4 +1,6 @@
-# Welcome to Norawit Nangsue's Portfolio
+# Welcome to Norawit Nangsue's Blog
+
+[Navigate to Portfolio](02_portfolio.md)
 
 --8<--
 ./docs/01_about.md

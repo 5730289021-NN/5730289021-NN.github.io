@@ -5,7 +5,10 @@
 }
 
 .md-main {
-  background-color: #F9F6F0;  /* Replace with your desired color */
+  background-color: #F9F6F0; 
+}
+:root {
+  --md-default-bg-color: F9F6F0;
 }
 
 .md-header__title {
