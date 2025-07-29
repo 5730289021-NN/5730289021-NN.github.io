@@ -12,8 +12,10 @@ Since FIBO Industry Service acquired Unitree H1 and G1 robots, the team continue
 ### Exploring about Fleet System
 To make the robots work collaboratively, I delved further into fleet systems. First, I developed an application to control several robots at once to test the robustness of the communication channel. Then, I utilized the networkx library to instantiate a directional graph for robots to travel step-wise.
 
-![Swarm Control](artifacts/05_engineer/06_fleet_system/swarm_control.mp4){width=325}
-![Digraph Navigation](artifacts/05_engineer/06_fleet_system/digraph_navigation.mp4){width=325}
+<!-- ![Swarm Control](artifacts/05_engineer/06_fleet_system/swarm_control.mp4){width=325} -->
+<!-- ![Digraph Navigation](artifacts/05_engineer/06_fleet_system/digraph_navigation.mp4){width=325} -->
+![type:video](artifacts/05_engineer/06_fleet_system/swarm_control.mp4)
+![type:video](artifacts/05_engineer/06_fleet_system/digraph_navigation.mp4)
 
 ## 2024
 ### Container Inspection Robot @ PTTGC
@@ -24,7 +26,8 @@ Our team continued working on a container inspection robot for PTT Global Chemic
 
 In this project, I also took the opportunity to explore how to "deproject" wheel odometry onto a sphere surface, from which I learned a lot by utilizing the Eigen library.
 
-![Odom Deprojection Demonstration](artifacts/05_engineer/05_pttgc_rover/odom_deprojection.mp4){width=400}
+<!-- ![Odom Deprojection Demonstration](artifacts/05_engineer/05_pttgc_rover/odom_deprojection.mp4){width=400} -->
+![type:video](artifacts/05_engineer/05_pttgc_rover/odom_deprojection.mp4)
 
 I also made use of ANN for battery estimation. We used the dataset from electronic load to obtain the SOC time series along with voltage and current profiles. According to the histogram, the error bound is around ±2%.
 
@@ -33,6 +36,7 @@ I also made use of ANN for battery estimation. We used the dataset from electron
 ![Battery Percentage Surface](artifacts/05_engineer/05_pttgc_rover/percentage_surface.png){width=160}
 
 This project turned out to be very successful after going through several design iterations.
+
 ![Rover on the Cylindrical Tank](artifacts/05_engineer/05_pttgc_rover/site_photo.jpg){width=175}
 ![Rover Kit](artifacts/05_engineer/05_pttgc_rover/rover_kit.jpg){width=250}
 ![Project Delivered Conference](artifacts/05_engineer/05_pttgc_rover/project_delivered.jpg){width=250}
@@ -41,8 +45,11 @@ This project turned out to be very successful after going through several design
 
 ### Golf Cart Modification @ YAMAHA
 In this project, we provided engineering services to modify an existing golf cart to allow autonomous navigation. The system comprised three main components: a traction drive, steering, and a brake that used a linear actuator. Communication with such a system was not simple; it required a complex state machine, especially for handling communication loss. The system also featured redundant control which made the system robust against computer failure.
+
+![type:video](artifacts/05_engineer/04_yamaha_agv/testing_at_yamaha.mp4)
 ![Testing at FIBO](artifacts/05_engineer/04_yamaha_agv/testing_at_fibo.jpg){width=250}
-![Testing at YAMAHA](artifacts/05_engineer/04_yamaha_agv/testing_at_yamaha.mp4){width=350}
+<!-- ![Testing at YAMAHA](artifacts/05_engineer/04_yamaha_agv/testing_at_yamaha.mp4){width=350} -->
+
 
 ### Surveillance Machine Investigating Live Environment (SMILE) Robot @ Siam Paragon
 After we accomplished the NECTEC robot, we continued to work on a surveillance robot that operated inside Siam Paragon Shopping Center. The robot was used for measuring PM2.5, detecting water spills, and identifying fire incidents. We added several features on top of the existing ones, e.g., elevator transit module (consisting of point cloud matching and pose controller modules), scheduler module, status manager, media player, etc. With experience from past projects, I managed to establish the FIBO Autonomous Robot (FAR) project. The purpose was to mitigate the problem of deploying the system into new robots with an easy-to-configure process.

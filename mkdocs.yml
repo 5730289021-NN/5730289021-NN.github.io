@@ -15,7 +15,12 @@ theme:
 plugins:
   # - search
   - glightbox
-  - mkdocs-video
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
+      css_style:
+        width: "40%"
 
 extra_javascript:
   - javascripts/extra.js

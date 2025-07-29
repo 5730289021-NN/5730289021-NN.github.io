@@ -44,3 +44,7 @@ img[src*="data:image/svg+xml"] {
   0% { background-position: 200% 0; }
   100% { background-position: -200% 0; }
 }
+
+.video-container {
+  display: inline;
+}
