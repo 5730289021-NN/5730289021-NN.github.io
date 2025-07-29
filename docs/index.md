@@ -6,7 +6,7 @@
 ./docs/01_about.md
 --8<--
 
-Last updated: GMT+7 23:41 29 July 2025  
+Last updated: GMT+7 00:43 30 July 2025  
 
 <!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
