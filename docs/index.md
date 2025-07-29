@@ -1,6 +1,6 @@
 # Welcome to Norawit Nangsue's Blog
 
-[Navigate to Portfolio](02_portfolio.md)
+[Navigate to Portfolio](02_portfolio.md) / [Curriculum Vitae](artifacts/CV.pdf)
 
 --8<--
 ./docs/01_about.md
