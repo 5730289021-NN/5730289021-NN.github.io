@@ -13,3 +13,24 @@ var head = document.getElementsByTagName('head')[0];
   meta.content = metaData.content;
   head.appendChild(meta);
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const content = document.querySelector(".md-content");
+    const items = Array.from(content.querySelectorAll(".item"));
+    const chunkSize = 20;
+    let loaded = chunkSize;
+
+    // Hide items initially
+    items.forEach((item, i) => {
+        if (i >= loaded) item.style.display = "none";
+    });
+
+    // Load more on scroll
+    window.addEventListener("scroll", () => {
+        if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 50) {
+            const nextItems = items.slice(loaded, loaded + chunkSize);
+            nextItems.forEach(item => item.style.display = "block");
+            loaded += chunkSize;
+        }
+    });
+});
