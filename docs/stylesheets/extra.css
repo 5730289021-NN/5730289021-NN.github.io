@@ -5,6 +5,17 @@
 }
 
 .md-main {
-  background-color: #F9F6F0
-;  /* Replace with your desired color */
+  background-color: #F9F6F0;  /* Replace with your desired color */
+}
+
+.md-header__title {
+  cursor: pointer;          /* Show pointer on hover */
+  user-select: none;        /* Disable text selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.md-header__title:hover {
+  opacity: 0.8;             /* Optional: visual feedback on hover */
 }

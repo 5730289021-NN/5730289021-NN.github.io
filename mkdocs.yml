@@ -16,11 +16,14 @@ plugins:
   # - search
   - glightbox
 
+extra_javascript:
+  - javascripts/extra.js
+
 extra_css:
   - stylesheets/extra.css
 
 nav:
-  - About Me: 01_about.md
+  # - About Me: 01_about.md
   - Present Focus: 02_present_focus.md
   - Prior Projects: 03_prior_projects.md
   - Contact: 04_contact.md
