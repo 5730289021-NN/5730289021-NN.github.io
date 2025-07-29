@@ -6,6 +6,8 @@
 ./docs/01_about.md
 --8<--
 
+Last updated: GMT+7 23:03 29 July 2025  
+
 <!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
