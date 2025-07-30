@@ -1,0 +1,50 @@
+[data-md-color-scheme="my_color"] {
+  --md-primary-fg-color:        #770000;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;  
+}
+
+.md-main {
+  background-color: #F9F6F0; 
+}
+:root {
+  --md-default-bg-color: F9F6F0;
+}
+
+.md-header__title {
+  cursor: pointer;          /* Show pointer on hover */
+  user-select: none;        /* Disable text selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.md-header__title:hover {
+  opacity: 0.8;             /* Optional: visual feedback on hover */
+}
+
+/* Lazy loading styles */
+img.lazy {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+img:not(.lazy) {
+  opacity: 1;
+}
+
+/* Placeholder for lazy images */
+img[src*="data:image/svg+xml"] {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.video-container {
+  display: inline;
+}
