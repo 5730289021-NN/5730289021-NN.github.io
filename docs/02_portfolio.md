@@ -211,7 +211,7 @@ I analyzed, designed, and validated FR4-based microstrip phased-array antennas o
 
 
 ## 2017
-### APSCO 1st SSS Summer Camp in Ankara
+### APSCO 1st SSS Summer Camp in Beijing
 I participated in the 1st SSS Summer Camp as a delegate from Thailand. It was held August 14 – September 2, 2017 at Beihang University, Beijing, China. The training covered over 13 topics and was given to nearly 40 students from member states of APSCO. The courses covered the basic technology of small satellites and established the foundation for future project development.
 
 ![SSS 1st Group Photo](artifacts/00_sss/1st_group.png){width=600 loading=lazy}
