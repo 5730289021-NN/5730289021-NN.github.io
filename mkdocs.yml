@@ -15,6 +15,10 @@ theme:
 plugins:
   # - search
   - glightbox
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Bangkok
+      locale: en
   - mkdocs-video:
       is_video: True
       video_muted: True

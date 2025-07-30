@@ -1,25 +1,9 @@
 # Welcome to Norawit Nangsue's Blog
 
+Last updated: {{ git_revision_date_localized }} GMT+7
+
 [Navigate to Portfolio](02_portfolio.md) / [Curriculum Vitae](artifacts/CV.pdf)
 
 --8<--
 ./docs/01_about.md
 --8<--
-
-Last updated: GMT+7 00:43 30 July 2025  
-
-<!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files. -->

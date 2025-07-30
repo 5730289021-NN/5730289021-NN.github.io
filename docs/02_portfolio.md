@@ -54,10 +54,11 @@ In this project, we provided engineering services to modify an existing golf car
 ### Surveillance Machine Investigating Live Environment (SMILE) Robot @ Siam Paragon
 After we accomplished the NECTEC robot, we continued to work on a surveillance robot that operated inside Siam Paragon Shopping Center. The robot was used for measuring PM2.5, detecting water spills, and identifying fire incidents. We added several features on top of the existing ones, e.g., elevator transit module (consisting of point cloud matching and pose controller modules), scheduler module, status manager, media player, etc. With experience from past projects, I managed to establish the FIBO Autonomous Robot (FAR) project. The purpose was to mitigate the problem of deploying the system into new robots with an easy-to-configure process.
 
-![Features](artifacts/05_engineer/03_smile/features.png){width=350 loading=lazy}
-![Navigation](artifacts/05_engineer/03_smile/navigation.png){width=350 loading=lazy}
-![Elevator Transit](artifacts/05_engineer/03_smile/elevator_transit.png){width=350 loading=lazy}
-![Auto-charging](artifacts/05_engineer/03_smile/auto_charging.png){width=350 loading=lazy}
+![Features](artifacts/05_engineer/03_smile/features.png){width=300 loading=lazy}
+![Navigation](artifacts/05_engineer/03_smile/navigation.png){width=300 loading=lazy}
+
+![Elevator Transit](artifacts/05_engineer/03_smile/elevator_transit.png){width=300 loading=lazy}
+![Auto-charging](artifacts/05_engineer/03_smile/auto_charging.png){width=300 loading=lazy}
 
 [PR Video](https://youtu.be/YrrubN9I7dY?si=gS9XQwE3hs_vqgCZ)
 
